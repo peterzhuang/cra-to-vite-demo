@@ -17,6 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "vite": "vite --open",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.1.2",
+    "vite": "^2.7.2"
   }
 }
